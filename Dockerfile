@@ -1,4 +1,4 @@
-FROM oracle/glassfish
+FROM oracle/glassfish:5.0
 
 # Add maven
 ENV	PATH $PATH:/usr/local/apache-maven-3.3.9/bin
